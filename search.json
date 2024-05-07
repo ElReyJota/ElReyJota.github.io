@@ -95,6 +95,27 @@
     ]
   },
   {
+    "objectID": "Data_Science/project4.html",
+    "href": "Data_Science/project4.html",
+    "title": "Client Report - [Insert Project Title]",
+    "section": "",
+    "text": "Paste in a template\n\n\n\n\n Back to top"
+  },
+  {
+    "objectID": "Data_Science/project1.html",
+    "href": "Data_Science/project1.html",
+    "title": "Client Report - [Insert Project Title]",
+    "section": "",
+    "text": "Paste in a template\n\n\n\n\n Back to top"
+  },
+  {
+    "objectID": "Data_Science/project2.html",
+    "href": "Data_Science/project2.html",
+    "title": "Client Report - [Insert Project Title]",
+    "section": "",
+    "text": "Paste in a template\n\n\n\n\n Back to top"
+  },
+  {
     "objectID": "story_telling.html",
     "href": "story_telling.html",
     "title": "about me",
@@ -388,6 +409,48 @@
     "crumbs": [
       "Data Cleansing"
     ]
+  },
+  {
+    "objectID": "Data_Science/project5.html",
+    "href": "Data_Science/project5.html",
+    "title": "Client Report - [Insert Project Title]",
+    "section": "",
+    "text": "Paste in a template\n\n\n\n\n Back to top"
+  },
+  {
+    "objectID": "Data_Science/project3.html",
+    "href": "Data_Science/project3.html",
+    "title": "Client Report - [Insert Project Title]",
+    "section": "",
+    "text": "Paste in a template\n\n\n\n\n Back to top"
+  },
+  {
+    "objectID": "Data_Science/project0.html",
+    "href": "Data_Science/project0.html",
+    "title": "Client Report - Project 0: Introduction",
+    "section": "",
+    "text": "The most important part of this project was familarizing myself with the python libraries and the way quarto works. Added to that the first chart shows that smaller engine sizes are more fuel efficent and vice-versa. Also, creating the table showed me the value of cleaning data to workable chunks for better analysis. This summarizes the key insights from this project.\n\n\nRead and format project data\n# Learn morea about Code Cells: https://quarto.org/docs/reference/cells/cells-jupyter.html\n\n# Include and execute your code here\nmpg = pd.read_csv(\"https://raw.githubusercontent.com/byuidatascience/data4python4ds/master/data-raw/mpg/mpg.csv\")\n\n\nHighlight the Questions and Tasks"
+  },
+  {
+    "objectID": "Data_Science/project0.html#elevator-pitch",
+    "href": "Data_Science/project0.html#elevator-pitch",
+    "title": "Client Report - Project 0: Introduction",
+    "section": "",
+    "text": "The most important part of this project was familarizing myself with the python libraries and the way quarto works. Added to that the first chart shows that smaller engine sizes are more fuel efficent and vice-versa. Also, creating the table showed me the value of cleaning data to workable chunks for better analysis. This summarizes the key insights from this project.\n\n\nRead and format project data\n# Learn morea about Code Cells: https://quarto.org/docs/reference/cells/cells-jupyter.html\n\n# Include and execute your code here\nmpg = pd.read_csv(\"https://raw.githubusercontent.com/byuidatascience/data4python4ds/master/data-raw/mpg/mpg.csv\")\n\n\nHighlight the Questions and Tasks"
+  },
+  {
+    "objectID": "Data_Science/project0.html#questiontask-1",
+    "href": "Data_Science/project0.html#questiontask-1",
+    "title": "Client Report - Project 0: Introduction",
+    "section": "QUESTION|TASK 1",
+    "text": "QUESTION|TASK 1\nIn VS Code, create the example chart from section 3.2.2 of the textbook.\nThe scatter plot shows a negative relationship between fuel efficency and engine size. So this means that cars with smaller engines use less fuel and cars with bigger engines use more fuel.\n\n\nRead and format data\n# Include and execute your code here\nchart1 = px.scatter(\n    mpg,\n    x='displ', \n    y='hwy'\n)\nchart1.show()"
+  },
+  {
+    "objectID": "Data_Science/project0.html#questiontask-2",
+    "href": "Data_Science/project0.html#questiontask-2",
+    "title": "Client Report - Project 0: Introduction",
+    "section": "QUESTION|TASK 2",
+    "text": "QUESTION|TASK 2\nYour final report should also include the table created from the following:\nThrough making this table work I learned how to shorten data into more concise tables that might show me more relevant data with which I can work off to get different types of results from analysis. This table shortens the relevant data to the manufacturer, model, year and hwy columns.\n\n\nRead and format data\n# Include and execute your code here\ntable1 = (mpg\n  .head(5)\n  .filter([\"manufacturer\", \"model\",\"year\", \"hwy\"])\n)\ntable1\n\n\n\n\n\n\n\n\n\n\nmanufacturer\nmodel\nyear\nhwy\n\n\n\n\n0\naudi\na4\n1999\n29\n\n\n1\naudi\na4\n1999\n29\n\n\n2\naudi\na4\n2008\n31\n\n\n3\naudi\na4\n2008\n30\n\n\n4\naudi\na4\n1999\n26"
   },
   {
     "objectID": "Cleansing_Projects/project5.html",
